@@ -7,12 +7,11 @@ float FungsiHitungLuas(){
     return Panjang * Lebar;
 }
 
-int main ()
-{
-    cout << "masukkan panjangnya :";
+int main(){
+    cout << "masukkan panjang : ";
     cin >> Panjang;
-    cout << "masukkan lebarnya :";
+    cout << " masukkan Lebar : ";
     cin >> Lebar;
-
-    cout << "Luas Persegi Panjang :" << FungsiHitungLuas();
+    
+    cout <<  "Luas Persegi Panjang : " << FungsiHitungLuas();
 }
