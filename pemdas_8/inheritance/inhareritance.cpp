@@ -29,4 +29,7 @@ class pelajar : public orang {
     ~pelajar(){
         cout << "pelajar dihapus\n" << endl;
     }
-}
+    string perkenalan(){
+        return "hallo, nama saya " + nama +"dari sekolah "+ sekolah + "\n\n"
+    }
+};
