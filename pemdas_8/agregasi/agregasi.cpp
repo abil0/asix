@@ -16,6 +16,11 @@ int main() {
     varIbu->tambahanak(varAnak2);
     varIbu2->tambahanak(varAnak3);
     varIbu2->tambahanak(varAnak1);
-    
+
+    varIbu->cetakanak();
+    varIbu2->cetakanak();
+
+    delete varIbu;
+    delete varIbu2;
 }
 
