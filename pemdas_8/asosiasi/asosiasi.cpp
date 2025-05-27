@@ -30,8 +30,12 @@ class dokter{
         ~dokter() {
             cout << "dokter \"" << nama << "\" tidak ada\n";
         }
+        void tambahpasien (pasien*);
+        void cetakpasien ();
 
 
+};
 
-
+void pasien::tambahdokter(){
+    cout << "daftar dokter yang menangani pasien"
 }
