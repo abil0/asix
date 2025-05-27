@@ -55,5 +55,13 @@ int main() {
     pasien* varpasien1 = new pasien ("andi");
     pasien* varpasien2 = new pasien ("lia");
 
+    vardokter1->tambahpasien(varpasien1);
+    vardokter1->tambahpasien(varpasien2);
+    vardokter2->tambahpasien(varpasien1);
+
+    varpasien1->tambahdokter(vardokter1);
+    varpasien2->tambahdokter(vardokter1);
+    varpasien1->tambahdokter(vardokter2);
+
     
 }
