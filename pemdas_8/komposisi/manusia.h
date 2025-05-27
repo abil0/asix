@@ -8,4 +8,5 @@ class manusia{
         jantung varjantung;
 
         manusia(string pName)
+            : name(pName) {}
 }
