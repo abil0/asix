@@ -45,4 +45,5 @@ void pasien::cetakdokter(){
     for (auto& a :daftar_dokter){
         cout << a->nama << "\n";
     }
+    cout << endl;
 }
