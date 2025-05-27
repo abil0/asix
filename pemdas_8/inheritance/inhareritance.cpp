@@ -33,3 +33,7 @@ class pelajar : public orang {
         return "hallo, nama saya " + nama +"dari sekolah "+ sekolah + "\n\n"
     }
 };
+
+int main(){
+    
+}
