@@ -35,5 +35,6 @@ class pelajar : public orang {
 };
 
 int main(){
-    
+    pelajar siswa1("andi laksono", "sman 1 bantul");
+    cout << siswa1.perkenalan();
 }
