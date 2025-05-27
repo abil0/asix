@@ -12,3 +12,4 @@ class jantung{
             cout << "jantung dimatikan\n";
         }
 };
+#endif
