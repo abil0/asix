@@ -6,3 +6,6 @@ using namespace std;
 #include "manusia.h"
 
 int main()
+{
+    manusia *varmanusia = new manusia
+}
