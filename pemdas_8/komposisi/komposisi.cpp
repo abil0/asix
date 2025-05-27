@@ -7,5 +7,5 @@ using namespace std;
 
 int main()
 {
-    manusia *varmanusia = new manusia
+    manusia *varmanusia = new manusia ("markus");
 }
