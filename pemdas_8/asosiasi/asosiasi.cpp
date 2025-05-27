@@ -14,4 +14,7 @@ class pasien{
         ~pasien(){
             cout << "pasien \"" << nama << "\" tidakada\n";
         }
-}
+        void tambahdokter(dokter*);
+        void cetakdokter();
+};
+
