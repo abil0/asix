@@ -18,3 +18,6 @@ class pasien{
         void cetakdokter();
 };
 
+class dokter{
+    
+}
