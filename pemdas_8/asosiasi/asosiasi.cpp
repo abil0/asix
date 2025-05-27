@@ -23,9 +23,15 @@ class dokter{
         string nama;
         vector<pasien*> daftar_pasien;
 
-        dokter{string pNama}: nam (pNama) {
+        dokter(string pNama): nama (pNama) {
             cout << "dokter \"" << nama << "\" ada\n";
         }
+
+        ~dokter() {
+            cout << "dokter \"" << nama << "\" tidak ada\n";
+        }
+
+
 
 
 }
