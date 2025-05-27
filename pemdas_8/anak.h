@@ -12,4 +12,5 @@ class anak{
         ~anak() {
             cout << "anak \"" << nama << "\" tidakada\n";
         }
-}
+};
+#endif
