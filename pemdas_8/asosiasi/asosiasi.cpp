@@ -63,5 +63,11 @@ int main() {
     varpasien2->tambahdokter(vardokter1);
     varpasien1->tambahdokter(vardokter2);
 
+    vardokter1->cetakpasien();
+    vardokter2->cetakpasien();
+    varpasien1->cetakdokter();
+    varpasien2->cetakdokter();
     
+    return 0;
+
 }
