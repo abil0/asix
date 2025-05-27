@@ -30,3 +30,5 @@ void ibu::cetakanak(){
     }
     cout << endl;
 }
+
+#endif
