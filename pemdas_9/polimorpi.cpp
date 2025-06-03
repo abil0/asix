@@ -7,7 +7,7 @@ class seseorang {
     virtual void pesan() {
         cout << "pesan dari seseorang"<< endl;
     }
-}
+};
 
 class joko : public seseorang {
     public :
@@ -22,5 +22,9 @@ class lia  : public seseorang {
          void pesan (){
         cout << "pesan dari lia"<< endl;
          }
+};
+
+int main() {
+    
 }
 
