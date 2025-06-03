@@ -24,7 +24,8 @@ int main() {
     cout << lampuRumah.getsaklarNo(0) << endl;
     cout << lampuRumah.getsaklarNo(1) << endl;
     cout << lampuRumah.getsaklarNo(2) << endl;
-    
+    cout << lampuRumah.getsaklarNo(3) << endl;
+
 
 
 }
