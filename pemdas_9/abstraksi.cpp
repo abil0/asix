@@ -7,6 +7,7 @@ private :
 
 public :
     void setxy(string a, string b) {
-        
+        x = a;
+        y = b;
     }
 }
