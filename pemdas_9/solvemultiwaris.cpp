@@ -14,5 +14,7 @@ orang(int pUmur) :
 };
 
 class pekerja :public orang {
-    public
+    public:
+
+    pekerja(int pUmur) :
 }
