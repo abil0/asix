@@ -22,5 +22,5 @@ int main() {
     ak.setxy("Yogyakarta" , "kampus");
     ak.display();
 
-    return 0
+    return 0;
 }
