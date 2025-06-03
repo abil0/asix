@@ -22,5 +22,7 @@ int main() {
     remoteLampu.setsaklarNo(3, "lampu dapur");
 
     cout << lampuRumah.getsaklarNo(0) << endl;
+    cout << lampuRumah.getsaklarNo(1) << endl;
+    
 
 }
