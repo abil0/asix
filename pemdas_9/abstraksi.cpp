@@ -19,5 +19,6 @@ public :
 
 int main() {
     AbstraksiKlas ak;
-    ak.setxy("Yogyakarta" , "kampus")
+    ak.setxy("Yogyakarta" , "kampus");
+    ak.display()
 }
