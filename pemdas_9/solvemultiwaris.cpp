@@ -5,5 +5,8 @@ class orang{
     public: 
     int umur;
 
-orang(int pUmur)
+orang(int pUmur) :
+     umur(pUmur)
+
+
 }
