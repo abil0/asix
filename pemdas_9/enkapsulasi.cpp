@@ -14,5 +14,7 @@ public:
 };
 
 int main() {
+    remoteLampu.setsaklarNo(0, "lampu teras rumah");
     
+
 }
