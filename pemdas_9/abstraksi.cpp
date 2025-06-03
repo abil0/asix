@@ -21,4 +21,6 @@ int main() {
     AbstraksiKlas ak;
     ak.setxy("Yogyakarta" , "kampus");
     ak.display();
+
+    return 
 }
