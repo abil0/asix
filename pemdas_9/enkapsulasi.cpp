@@ -9,6 +9,10 @@ public:
         saklarNo[i] = value;
     }
     string getsaklarNo(int i) {
-        
+        return saklarNo[i];
     }
+};
+
+int main() {
+    
 }
