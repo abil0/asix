@@ -14,11 +14,13 @@ public:
 };
 
 int main() {
-   remoteLampu lampuRumah:
+   remoteLampu lampuRumah;
    
     remoteLampu.setsaklarNo(0, "lampu teras rumah");
     remoteLampu.setsaklarNo(1, "lampu ruang tamu");
     remoteLampu.setsaklarNo(2, "lampu kamar tidur");
     remoteLampu.setsaklarNo(3, "lampu dapur");
+
+    cout << lampuRumah.getsaklarNo(0) << endl;
 
 }
